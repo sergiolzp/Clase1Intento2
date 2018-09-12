@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_marca"
+        android:src="@drawable/ford" />
+
+        <TextView
+            android:id="@+id/lbl_marca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marca"
+
+            />
+    <TextView
+        android:id="@+id/lbl_modelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modelo"
+        android:layout_toRightOf="@id/lbl_marca"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_anio"
+        android:layout_toRightOf="@id/lbl_modelo"
+        android:text="Año"
+        android:textSize="16sp"
+        />
+
+
+
+</RelativeLayout>
